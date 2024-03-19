@@ -10,4 +10,20 @@ Colors:
 }
 
 .square {
+  height: 50px;
+  width: 50px;
+  background-color: #ffc677;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  box-shadow: 0 150px #ffc677;
+}
+.square::after{
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: #ffc677;
+  left: 250px;
+  box-shadow: 0 150px #ffc677;
 }

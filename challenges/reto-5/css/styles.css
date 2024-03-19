@@ -10,4 +10,13 @@ Colors:
 }
 
 .shape {
+  background-color: #063a86;
+  height: 180px;
+  width: 180px;
+  rotate: 45deg;
+  position: absolute;
+  top: 60px;
+  left: 56px;
+  border-top-right-radius: 70px;
+  overflow: hidden;
 }
