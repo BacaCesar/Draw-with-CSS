@@ -11,4 +11,36 @@ Colors:
 }
 
 .shape {
+  height: 80px;
+  width: 80px;
+  background-color: #ff955f;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 100px 0 0 0;
+  box-shadow: 100px 0 #ffd7b4, 200px 0 #ff955f, 300px 0 #ffd7b4;
+}
+.shape::after{
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: #ffd7b4;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  border-radius: 100px 0 0 0;
+  box-shadow: 100px 0 #ff955f, 200px 0 #ffd7b4, 300px 0 #ff955f;
+}
+.shape::before{
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: #ff955f;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+  border-radius: 100px 0 0 0;
+  box-shadow: 100px 0 #ffd7b4, 200px 0 #ff955f, 300px 0 #ffd7b4;
 }

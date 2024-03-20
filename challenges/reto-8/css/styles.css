@@ -10,5 +10,24 @@ Colors:
   background-color: #0b2429;
 }
 
+.leaf::before{
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: #f3ac3c;
+  border-radius: 100px;
+  left: 120px;
+  bottom: 120px;
+  z-index: -1;
+}
 .leaf {
+  width: 120px;
+  height: 120px;
+  background-color: #f3ac3c;
+  border-radius: 100px 0 100px 100px;
+  position: absolute;
+  left: 80px;
+  top: 150px;
+  box-shadow: 60px -60px #998235;
 }

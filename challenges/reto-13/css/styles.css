@@ -10,4 +10,46 @@ Colors:
 }
 
 .circle {
+  height: 140px;
+  width: 140px;
+  background-color: transparent;
+  border-radius: 100px;
+  position: absolute;
+  left: 130px;
+  top: 80px;
+  border: 20px solid orange;
+  padding: 20px;
+}
+.circle::after{
+  content: "";
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: #191210;
+  border-radius: 100px;
+  left: -100px;
+  top: 0px;
+  border: 20px solid orange;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  padding: 30px;
+  rotate: -45deg;
+  z-index: -1;
+}
+.circle::before{
+  content: "";
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: #191210;
+  border-radius: 100px;
+  left: 100px;
+  top: 0px;
+  border: 20px solid orange;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  padding: 30px;
+  rotate: 135deg;
+  z-index: -1;
+  box-shadow: 71px 71px 0 -25px red;
 }

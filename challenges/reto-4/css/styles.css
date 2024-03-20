@@ -22,12 +22,21 @@ Colors:
   left: 120px;
   top: 45px;
 }
-.shape::after{
+.shape::before{
   content: "";
   position: absolute;
   height: 130px;
   width: 75px;
   background-color: #ffe58e;
-  mix-blend-mode: difference;
   top: 75px;
+}
+.shape::after{
+  content: "";
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  background-color: #79d6ff;
+  top: 75px;
+  border-radius: 0 0 0 100px;
+
 }

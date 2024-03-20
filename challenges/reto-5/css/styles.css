@@ -11,12 +11,29 @@ Colors:
 
 .shape {
   background-color: #063a86;
-  height: 180px;
-  width: 180px;
-  rotate: 45deg;
+  height: 400px;
+  width: 100px;
   position: absolute;
-  top: 60px;
-  left: 56px;
-  border-top-right-radius: 70px;
-  overflow: hidden;
+  left: 150px;
+  z-index: -2;
+}
+.shape::after{
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: #4893d2;
+  left: 0px;
+  top: -47px;
+  rotate: 45deg;
+}
+.shape::before{
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: #4893d2;
+  left: 0px;
+  top: 245px;
+  rotate: 45deg;
 }
